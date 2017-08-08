@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mytaxi</groupId>
-    <artifactId>mytaxi_server_applicant_test</artifactId>
+    <groupId>com.library</groupId>
+    <artifactId>library_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>mytaxi_server_applicant_test</name>
-    <description>Test project to check some basic knowledge of server applicants.</description>
+    <name>library_server</name>
+    <description>libraary backend system</description>
 
     <organization>
         <name>No organization</name>
@@ -28,8 +28,6 @@
         <java.version>1.8</java.version>
         <!-- dependency versions -->
         <com.google.guava.guava.version>21.0</com.google.guava.guava.version>
-        <!-- <io.springfox.springfox-swagger2>2.3.1</io.springfox.springfox-swagger2>
-        <io.springfox.springfox-swagger-ui>2.3.1</io.springfox.springfox-swagger-ui> -->
     </properties>
 
     <dependencies>
@@ -78,20 +76,6 @@
             <version>${com.google.guava.guava.version}</version>
         </dependency>
 
-        <!-- Include swagger for API description -->
-        <!-- <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${io.springfox.springfox-swagger2}</version>
-        </dependency>
-
-        Include swagger for API description UI
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${io.springfox.springfox-swagger-ui}</version>
-        </dependency> -->
-        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
