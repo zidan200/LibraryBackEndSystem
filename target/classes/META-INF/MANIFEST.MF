@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: mytaxi_server_applicant_test
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zidan
+Implementation-Vendor-Id: com.mytaxi
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://projects.spring.io/spring-boot/mytaxi_serve
+ r_applicant_test/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: No organization
+
